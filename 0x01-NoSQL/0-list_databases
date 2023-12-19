@@ -1,4 +1,3 @@
 // Script that lists dabatases MongoDB
 
 show dbs
-
