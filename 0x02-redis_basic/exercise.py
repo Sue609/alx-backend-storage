@@ -85,7 +85,7 @@ class Cache:
         self._redis.flushdb()
 
     @call_history
-    @count_calls    
+    @count_calls
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """
         a methods thats takes data as an arguements
@@ -125,4 +125,3 @@ class Cache:
         except Exception:
             value = 0
         return value
-
