@@ -125,4 +125,3 @@ class Cache:
         except Exception:
             value = 0
         return value
-
