@@ -15,7 +15,7 @@ def count_calls(method: Callable) -> Callable:
     """
 
     @wraps(method)
-    def wrappers(self, *args, **kwargs):
+    def wrapper(self, *args, **kwargs):
         """
         wrapper function
         """
